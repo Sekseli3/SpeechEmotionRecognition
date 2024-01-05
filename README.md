@@ -21,11 +21,15 @@ The model is trained for 50 epochs with a batch size of 64. 20% of the data is u
 
 The training and validation accuracy are plotted after each epoch. Right not the results are not yet as good as i would like them to be.
 Results after training:
+
 <img width="615" alt="Screenshot 2024-01-05 at 19 44 36" src="https://github.com/Sekseli3/SpeechEmotionRecognition/assets/120391401/7e42d092-67bc-42c1-9277-aff14f7d07c8">
+
+And one example of me trying to do a disqusting emotion audio and feeding it to the model:
+<img width="289" alt="Screenshot 2024-01-05 at 20 18 38" src="https://github.com/Sekseli3/SpeechEmotionRecognition/assets/120391401/1a3607d6-737d-4470-b38c-483c1ded14fc">
 
 ## Usage
 
-To use the trained model to classify an emotion from an audio file, load the model from 'model.h5' and use the `predict` method.
+To use the trained model to classify an emotion from an audio file, load the model from 'model.h5' and put your .wav audion path to filename = "..." in use.py
 
 ## Dependencies
 
