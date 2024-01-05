@@ -1,6 +1,7 @@
 # Emotion Recognition from Audio Files
 
 This project uses a Long Short-Term Memory (LSTM) model to classify emotions from audio files. The model is trained on a dataset of audio files, each labeled with one of seven emotions: 'angry', 'disgust', 'fear', 'happy', 'neutral', 'ps', and 'sad'.
+Data from kaggle: https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess?resource=download 
 
 ## Model Architecture
 
@@ -14,7 +15,7 @@ The model is trained for 50 epochs with a batch size of 64. 20% of the data is u
 
 ## Results
 
-The training and validation accuracy are plotted after each epoch.
+The training and validation accuracy are plotted after each epoch. Right not the results are not yet as good as i would like them to be.
 
 ## Usage
 
