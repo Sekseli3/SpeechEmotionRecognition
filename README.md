@@ -20,6 +20,8 @@ The model is trained for 50 epochs with a batch size of 64. 20% of the data is u
 ## Results
 
 The training and validation accuracy are plotted after each epoch. Right not the results are not yet as good as i would like them to be.
+Results after training:
+<img width="615" alt="Screenshot 2024-01-05 at 19 44 36" src="https://github.com/Sekseli3/SpeechEmotionRecognition/assets/120391401/7e42d092-67bc-42c1-9277-aff14f7d07c8">
 
 ## Usage
 
