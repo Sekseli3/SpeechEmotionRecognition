@@ -2,8 +2,10 @@
 
 This project uses a Long Short-Term Memory (LSTM) model to classify emotions from audio files. The model is trained on a dataset of audio files, each labeled with one of seven emotions: 'angry', 'disgust', 'fear', 'happy', 'neutral', 'ps', and 'sad'.
 Data from kaggle: https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess?resource=download 
+Each emotion gets plotted for visual reasons, does not really do anything in training:
 
-## Model Architecture
+
+## Model Architecturem
 
 The model consists of an LSTM layer followed by three Dense layers. Dropout is applied after the LSTM layer and each Dense layer to prevent overfitting. The output layer uses the softmax activation function to output a probability distribution over the seven emotion classes.
 
